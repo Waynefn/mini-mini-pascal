@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="19e5f8c6-06a3-448c-9a4d-f141f31f1e45" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etc/EG.PAS" beforeDir="false" afterPath="$PROJECT_DIR$/etc/EG.PAS" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etc/EG2.PAS" beforeDir="false" afterPath="$PROJECT_DIR$/etc/EG2.PAS" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/coding.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/coding.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -138,11 +135,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/machine.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="356">
+              <caret line="32" column="17" lean-forward="true" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
               <folding>
                 <marker date="1573304868778" expanded="true" signature="107:112" ph="..." />
                 <marker date="1573304868778" expanded="true" signature="263:268" ph="..." />
@@ -151,11 +148,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="3" column="8" lean-forward="true" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+            <state relative-caret-position="48">
+              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -210,16 +207,16 @@
         <option value="$PROJECT_DIR$/src/syntax.py" />
         <option value="$PROJECT_DIR$/src/machine.py" />
         <option value="$PROJECT_DIR$/etc/EG.PAS" />
-        <option value="$PROJECT_DIR$/src/main.py" />
         <option value="$PROJECT_DIR$/src/compile.py" />
         <option value="$PROJECT_DIR$/src/coding.py" />
         <option value="$PROJECT_DIR$/etc/EG2.PAS" />
+        <option value="$PROJECT_DIR$/src/main.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2030" />
-    <option name="y" value="-156" />
+    <option name="x" value="26" />
+    <option name="y" value="-18" />
     <option name="width" value="1783" />
     <option name="height" value="1096" />
   </component>
@@ -332,6 +329,9 @@
       <module name="miniMiniPascal" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -397,20 +397,20 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-156" width="1936" height="1096" extended-state="6" />
+    <frame x="-8" y="-8" width="1858" height="1096" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13477801" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14057332" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32942432" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.45415777" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.45415777" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.7046908" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.7345416" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.5575693" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -422,20 +422,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/machine.py</url>
-          <line>24</line>
-          <option name="timeStamp" value="82" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/machine.py</url>
-          <line>26</line>
-          <option name="timeStamp" value="83" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
         <watch expression="self.stack" />
@@ -496,13 +482,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="8" lean-forward="true" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/etc/EG.PAS">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -532,13 +511,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-568163738/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="3531" column="6" selection-start-line="3531" selection-start-column="6" selection-end-line="3531" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/coding.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="307">
@@ -560,12 +532,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/machine.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="356">
+          <caret line="32" column="17" lean-forward="true" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
           <folding>
             <marker date="1573304868778" expanded="true" signature="107:112" ph="..." />
             <marker date="1573304868778" expanded="true" signature="263:268" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-568163738/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="3531" column="6" selection-start-line="3531" selection-start-column="6" selection-end-line="3531" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
         </state>
       </provider>
     </entry>

@@ -1,4 +1,4 @@
 from src.compile import *
 
-s= pcompile_and_run('EG2')
+s= pcompile_and_run('EG')
 print(s)
