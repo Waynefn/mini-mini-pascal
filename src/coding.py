@@ -33,6 +33,7 @@ def fill_jump(asm_tokens):
         while i < j and asm_tokens[i].flag != True:
             i += 1
         jpd = i
+        i+=1
         while i < j and asm_tokens[i].unit_type != "CJP":
             i += 1
         while i < j and asm_tokens[j].unit_type != "UJP":
@@ -42,8 +43,7 @@ def fill_jump(asm_tokens):
         asm_tokens[jpd].flag = False
         asm_tokens[i].value = j + 1
         asm_tokens[j].value = jpd + 1
-        i += 1
-        j -= 1
+        j-=1
     return asm_tokens
 
 

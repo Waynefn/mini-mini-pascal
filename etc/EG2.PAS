@@ -1,4 +1,10 @@
-READ(L);
-A:= 5;
-A:= 2+A;
-WRITE(A).
+A:=0;
+Z:=0;
+WHILE A<5 DO
+WHILE Z<5 DO
+C:=A*Z;
+WRITE(C);
+Z:=Z+1
+ENDWHILE;
+A:=A+1
+ENDWHILE.
