@@ -1,10 +1,6 @@
 # mini-mini-pascal
 A mini-mini-pascal language compiler and execute machine.
 
-Contributor
-- C. XB (TMU) 90%
-- L. ZX (UT) 10%
-
 ## Grammar
 ### Character:
 - Number: [0-9]
